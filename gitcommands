@@ -1,0 +1,14 @@
+git init
+git add --all
+git commit -a -m "Initial" 
+git branch -M main
+git remote add origin https://github.com/indiatq/threads.git
+git push -u -f origin main
+
+
+git commit -a -m "Initial" ; git branch -M main 
+git remote add origin https://github.com/indiatq/threads.git
+git push -u -f origin main
+
+
+git commit -a -m "ignorebuilderros " ; git push
