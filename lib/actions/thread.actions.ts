@@ -79,7 +79,7 @@ export async function createThread({ text, author, communityId, path,fileUrl }: 
     });
 
     if (communityIdObject) {
-      // Update Community model
+      // Update Community modely
       await Community.findByIdAndUpdate(communityIdObject, {
         $push: { threads: createdThread._id },
       });

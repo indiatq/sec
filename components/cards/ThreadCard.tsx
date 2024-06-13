@@ -158,7 +158,7 @@
             </Link>
           </div>
         )}
-        {console.log("Community ",community )}
+        
         {!isComment && community && (
           <Link
             href={`/communities/${community.id}`}
